@@ -1,0 +1,423 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "Primitives",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "Colors/cornflower_ocean",
+              "type": "color",
+              "isAlias": false,
+              "value": "#006994"
+            },
+            {
+              "name": "Colors/light_sea_grean",
+              "type": "color",
+              "isAlias": false,
+              "value": "#28A99E"
+            },
+            {
+              "name": "Colors/royal_gold",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F2D66A"
+            },
+            {
+              "name": "Colors/saddle_brown",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8C522A"
+            },
+            {
+              "name": "Colors/golden_earth",
+              "type": "color",
+              "isAlias": false,
+              "value": "#996515"
+            },
+            {
+              "name": "Colors/white",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "Colors/black",
+              "type": "color",
+              "isAlias": false,
+              "value": "#000000"
+            },
+            {
+              "name": "Spacing/space-0",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "Spacing/space-1",
+              "type": "number",
+              "isAlias": false,
+              "value": 1
+            },
+            {
+              "name": "Spacing/space- 2",
+              "type": "number",
+              "isAlias": false,
+              "value": 2
+            },
+            {
+              "name": "Spacing/space- 3",
+              "type": "number",
+              "isAlias": false,
+              "value": 4
+            },
+            {
+              "name": "Spacing/space- 4",
+              "type": "number",
+              "isAlias": false,
+              "value": 6
+            },
+            {
+              "name": "Spacing/space- 5",
+              "type": "number",
+              "isAlias": false,
+              "value": 8
+            },
+            {
+              "name": "Spacing/space- 6",
+              "type": "number",
+              "isAlias": false,
+              "value": 12
+            },
+            {
+              "name": "Spacing/space- 7",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "Spacing/space- 8",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "Spacing/space- 9",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "Spacing/space- 10",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "Spacing/space- 11",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "Font/Font names/page_titles",
+              "type": "string",
+              "isAlias": false,
+              "value": "Roboto"
+            },
+            {
+              "name": "Spacing/space- 12",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "Font/Font names/section_headings",
+              "type": "string",
+              "isAlias": false,
+              "value": "Roboto"
+            },
+            {
+              "name": "Spacing/space- 13",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "Font/Font names/body_text",
+              "type": "string",
+              "isAlias": false,
+              "value": "Source Serif Pro"
+            },
+            {
+              "name": "Spacing/space- 14",
+              "type": "number",
+              "isAlias": false,
+              "value": 80
+            },
+            {
+              "name": "Font/Font names/button_text",
+              "type": "string",
+              "isAlias": false,
+              "value": "Source Serif Pro"
+            },
+            {
+              "name": "Spacing/space- 15",
+              "type": "number",
+              "isAlias": false,
+              "value": 96
+            },
+            {
+              "name": "Font/Font weight/weight_regular",
+              "type": "string",
+              "isAlias": false,
+              "value": "Regular"
+            },
+            {
+              "name": "Font/Font size/text-xs",
+              "type": "number",
+              "isAlias": false,
+              "value": 12
+            },
+            {
+              "name": "Font/Line height/leading-4",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "Font/Line height/leading-5",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "Font/Line height/leading-6",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "Font/Line height/leading-7",
+              "type": "number",
+              "isAlias": false,
+              "value": 28
+            },
+            {
+              "name": "Font/Line height/leading-8",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "Font/Line height/leading-9",
+              "type": "number",
+              "isAlias": false,
+              "value": 36
+            },
+            {
+              "name": "Font/Line height/leading-10",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "Font/Font size/text-sm",
+              "type": "number",
+              "isAlias": false,
+              "value": 14
+            },
+            {
+              "name": "Font/Font size/text-base",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "Font/Font size/text-lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 18
+            },
+            {
+              "name": "Font/Font size/text-xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "Font/Font size/text-2xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "Font/Font size/text-3xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 30
+            },
+            {
+              "name": "Font/Font size/text-4xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 36
+            },
+            {
+              "name": "Font/Font weight/weight_medium",
+              "type": "string",
+              "isAlias": false,
+              "value": "Medium"
+            },
+            {
+              "name": "Font/Font weight/weight_semibold",
+              "type": "string",
+              "isAlias": false,
+              "value": "SemiBold"
+            },
+            {
+              "name": "Font/Font weight/weight_bold",
+              "type": "string",
+              "isAlias": false,
+              "value": "Bold"
+            },
+            {
+              "name": "Grey",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "name": "Grey"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Viewport",
+      "modes": [
+        {
+          "name": "Desktop mode",
+          "variables": [
+            {
+              "name": "screen/screen_width",
+              "type": "number",
+              "isAlias": false,
+              "value": 1440
+            },
+            {
+              "name": "layout/margin",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "space/section",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "size/touch-target",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "space/card-pad",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "layout/gutter",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "type/h1-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 36
+            },
+            {
+              "name": "type/h2-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "type/body-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            }
+          ]
+        },
+        {
+          "name": "Mobile mode",
+          "variables": [
+            {
+              "name": "screen/screen_width",
+              "type": "number",
+              "isAlias": false,
+              "value": 390
+            },
+            {
+              "name": "layout/margin",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "space/section",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "size/touch-target",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "space/card-pad",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "layout/gutter",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "type/h1-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 28
+            },
+            {
+              "name": "type/h2-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "type/body-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

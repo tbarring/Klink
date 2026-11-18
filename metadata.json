@@ -1,0 +1,6 @@
+{
+  "name": "Klink — Nordic Folkboat Companion",
+  "description": "Manage maintenance tasks, shopping lists, boat measurements, voyage logs, and Nordic Folkboat resources across mobile and desktop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

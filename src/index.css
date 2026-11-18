@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --klink-ocean: #006994;
+  --klink-sea-green: #28a99e;
+  --klink-royal-gold: #f2d66a;
+  --klink-saddle-brown: #8c522a;
+  --klink-golden-earth: #996515;
+  --klink-canvas: #e9ebe9;
+  --klink-surface: #ffffff;
+  --klink-ink: #111413;
+  --klink-ink-muted: #525855;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--klink-canvas);
+    color: var(--klink-ink);
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+  }
+}
+
+.font-mono-tabular {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Crisp custom checkbox matching Figma square stroke */
+.klink-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.75px solid #1a1c1b;
+  border-radius: 3px;
+  background-color: #ffffff;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.klink-checkbox:hover {
+  border-color: var(--klink-ocean);
+}
+
+.klink-checkbox:checked {
+  background-color: #ffffff;
+  border-color: #1a1c1b;
+}
+
+.klink-checkbox:checked::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  background-color: #111413;
+}
+
+/* Smooth focus visibility */
+:focus-visible {
+  outline: 2px solid var(--klink-ocean);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
