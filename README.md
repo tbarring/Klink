@@ -3,11 +3,13 @@
 <div align="center">
 
 ```
-  ⛵   _  ___ _ _       _    
-     | |/ / (_) |     | |   
-     | ' /| |_| | __ _| | __
-     |  < | | | |/ / _` |/ /
-     |_|\_\_|_|_|\_\__,_|\_\
+▓   ▓ ▓     ▓▓▓ ▓   ▓ ▓   ▓   
+▓░ ▓ ░▓░     ▓░░▓▓  ▓░▓░ ▓ ░  
+▓▓▓ ░ ▓░░    ▓░░▓░▓ ▓░▓▓▓ ░ ░ 
+▓░░▓ ░▓░░    ▓░░▓░░▓▓░▓░░▓ ░  
+▓░░░▓ ▓▓▓▓▓ ▓▓▓░▓░░ ▓░▓░░░▓   
+ ░░  ░ ░░░░░ ░░░ ░░  ░░░░  ░  
+  ░   ░ ░░░░░ ░░░ ░   ░ ░   ░ 
 ```
 
 **A purpose-built digital companion and vessel logbook for Nordic Folkboat (*Nordisk Folkbåt*) owners, skippers, and restorers.**
